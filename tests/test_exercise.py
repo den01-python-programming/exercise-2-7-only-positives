@@ -19,4 +19,4 @@ def test_exercise():
     src.exercise.main()
 
     assert [output[0],output[1],output[2],output[3],output[4],output[5],output[6]] == \
-           ["Give a number:","100","Give a number:","4","Give a number:","Unsuitable number","Give a number:"]
+           ["Give a number:",10,"Give a number:",2,"Give a number:","Unsuitable number","Give a number:"]
